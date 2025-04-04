@@ -62,7 +62,7 @@ setTimeout(() => {
     localStorage.removeItem("orderInfo"); 
 
     window.location.href = "index.html";  
-}, 20000); 
+}, 10000); 
 
 function displayOrderItems(items, container) {
     if (!container) return;
