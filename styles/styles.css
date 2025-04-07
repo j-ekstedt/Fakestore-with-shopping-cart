@@ -364,13 +364,6 @@ header form {
   cursor: pointer;
 }
 
-@media (max-width: 768px) {
-  .modal-content {
-    margin: 20% auto;
-    width: 95%;
-  }
-}
-
 input {
   font-family: inherit;
   font-size: 18px;
@@ -396,13 +389,19 @@ input {
 
 @media (max-width: 768px) {
   .spacer {
-    display: none;
+      display: none;
   }
   .p-image1 {
-    width: 350px;
-    margin-left: 10px;
+      display: none;
+  }
+  .input-search {
+      display: none;
+  }
+  .footer-section:not(:first-child) {
+      display: none;
   }
 }
+
 
 .p-image2 {
   padding-left: 8px;
